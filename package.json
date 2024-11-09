@@ -1,0 +1,37 @@
+{
+  "name": "datiloprintsite",
+  "version": "1.0.0",
+  "description": "DatiloPrint é mais do que uma empresade impressão 3D, é um estúdio onde cada criação carrega a marca de autenticidade e atenção ao detalhe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themesberg/landwind.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "tailwind",
+    "css",
+    "flowbite",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "design"
+  ],
+  "author": "DatiloPrint",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themesberg/landwind/issues"
+  },
+  "homepage": "https://github.com/themesberg/landwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  },
+  "dependencies": {
+    "flowbite": "^1.4.7"
+  }
+}
