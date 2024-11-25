@@ -1857,6 +1857,28 @@ input:checked + .toggle-bg {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+/* -- DatiloPrint -- */
+.hover\:bg-white-ice:hover {
+  background-color: #F4F3ED;
+}
+
+.hover\:bg-yellow-mustard:hover {
+  background-color: #fbb03b;
+}
+
+.hover\:bg-green-dark:hover {
+  background-color: #002525;
+}
+
+.hover\:bg-green-mid:hover {
+  background-color: #005454;
+}
+
+.hover\:bg-blue-tifanny:hover {
+  background-color: #73cec5;
+}
+/* ----------------- */
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2138,6 +2160,17 @@ input:checked + .toggle-bg {
 .dark .dark\:focus\:ring-purple-900:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
+}
+
+@media (max-width: 640px) {
+  .image-sm {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image {
+    height: auto;
+    max-width: 80%;
+  }
 }
 
 @media (min-width: 640px) {
